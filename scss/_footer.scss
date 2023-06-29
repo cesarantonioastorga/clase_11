@@ -1,0 +1,16 @@
+/*FOOTER*/
+footer{
+    background-color: black;
+    padding: 10px 100px;
+}
+footer ol {
+    display: flex;
+    justify-content: flex-end;
+}
+footer ol li{
+    margin-left: 10px;
+}
+footer ol li a {
+    color: white;
+    text-decoration: none;
+}

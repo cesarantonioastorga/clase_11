@@ -1,0 +1,57 @@
+/*INDEX*/
+
+.youtube{
+    margin-top: 120px;
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.youtube::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(58, 58, 58,.4);
+    width: 100%;
+    height: 600px;
+}
+.youtube h1{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    top: 40%;
+    z-index: 1;
+    width: 100%;
+}
+
+#main-index{
+    margin: 50px;
+}
+
+/* .grid-index{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: white;
+    padding: 30px 20px;
+} */
+.grid-index{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-row-gap: 10px;
+    background-color: white;
+    padding: 30px 4.5%;
+}
+.grid-index div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-index div p,
+.grid-index div h4,
+.grid-index img{
+    width: 13%;
+    text-align: center;
+}

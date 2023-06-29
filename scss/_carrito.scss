@@ -1,0 +1,73 @@
+/**********CARRITO DE COMPRAS*********/
+.carrito{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 50px 1fr 1fr;
+    grid-template-areas:
+    'titulo titulo titulo'
+    'carrito carrito precio'
+    'carrito carrito .';
+    justify-items: center;
+    padding: 0 100px;
+}
+
+.carrito h1{
+    grid-area: titulo;
+}
+
+#carrito{
+    width: 90%;
+    grid-area: carrito;
+}
+
+#carrito .contenedorProducto{
+    padding: 20px 50px;
+    margin: 10px auto;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+#carrito .contenedorProducto img{
+    width: 200px;
+}
+
+#carrito .contenedorData,
+#carrito .contenedorPrice,
+#carrito .contenedorBotones,
+#carrito .contenedorProducto img{
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+    /* width: 190px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 10px;
+}
+
+#carrito .contenedorBotones button{
+    margin-bottom: 10px;
+}
+
+#carrito .contenedorBotones .contenedorBotones__eliminar {
+    background-color: rgb(219, 28, 28);
+    border: 1px solid rgb(219, 28, 28);
+}
+
+aside{
+    grid-area: precio;
+    width: 90%;
+    margin: 10px 0;
+}
+
+aside .card{
+    padding: 20px;
+}
+
+.pagar{
+    background-color: rgb(30, 173, 30);
+    border: 1px solid rgb(30, 173, 30);
+}

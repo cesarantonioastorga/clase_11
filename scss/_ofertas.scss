@@ -1,0 +1,75 @@
+.ofertas{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#ofertas{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(206, 206, 206);
+}
+
+#ofertas .card ul {
+    color: darkgrey;
+    font-size: 16px;
+    list-style-position: inside;
+    margin-bottom: 20px;
+
+    /* estilos de lista */
+    /* list-style-type: none;
+    list-style-type: square; */
+    list-style-image: url(../img/comprobado.png);
+}
+
+#ofertas .card ul li{
+    line-height: 1.5;
+    text-align: left;
+}
+
+#ofertas .card p {
+    text-decoration:line-through;
+}
+
+/*font*/
+#ofertas .card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.oferta{
+    width: 300px;
+    /* display: inline-block; */
+    
+    /* display: flex;
+    flex-direction: column; */
+
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.oferta img{
+    width: 100%;
+}
+
+.oferta h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.oferta button{
+    background-color: #2366a7;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #2366a7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

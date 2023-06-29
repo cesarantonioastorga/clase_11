@@ -1,0 +1,11 @@
+/*BANNER*/
+#banner{
+    height: 85vh;
+    background-image: url('../img/fondo-banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    /*parallax*/
+    background-attachment: fixed;
+}
